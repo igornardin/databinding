@@ -7,4 +7,4 @@
   Curso de {{ curso }}
 </h2>
 
-<app-propertybinding></app-propertybinding>
+<propertybinding></propertybinding>
