@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertybindingComponent implements OnInit {
 
-  public urlimag = 'https://picsum.photos/200/300.jpg';
+  public urlimg = 'https://picsum.photos/id/237/200/300';
 
   constructor() { }
 

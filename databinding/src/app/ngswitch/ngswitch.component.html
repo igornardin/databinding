@@ -1,0 +1,11 @@
+<h3>Seleção de Cursos</h3>
+<select [(ngModel)]="selection">
+    <option *ngFor="let option of options">{{ option }}</option>
+</select>
+
+<div [ngSwitch]="selection">
+    <div *ngSwitchCase="options[0]">Angular</div>
+    <div *ngSwitchCase="options[1]">React</div>
+    <div *ngSwitchCase="options[2]">Vue</div>
+    <div *ngSwitchDefault> Default</div>
+</div>
